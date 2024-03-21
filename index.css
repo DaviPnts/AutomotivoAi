@@ -1,0 +1,78 @@
+
+body {
+    background-color: #1E1E1E;
+    margin: 0; /* Remover margens padrões */
+    padding: 0; /* Remover preenchimento padrões */
+}
+
+header {
+    text-align: center; /* Alinhamento do conteúdo para o centro */
+    padding: 30px 0; /* Adiciona preenchimento na parte superior e inferior */
+    position: relative;
+}
+
+.linha {position: absolute; /* Definindo a posição absoluta para a linha */
+bottom: 0; /* Alinhando a linha ao topo do header */
+left: 0; /* Alinhando a linha ao lado esquerdo do header */
+width: 100%; /* Definindo a largura da linha */
+height: 3px; /* Definindo a espessura da linha */
+background-color: #615A5A; /* Cor da linha */
+}
+
+/* Configuração da logotipo */
+#logo{
+    max-width: 150px; /* Largura máxima da imagem */
+    max-height: 130px; /* Altura máxima da imagem */
+}
+
+/* Configuração do primeiro subtítulo*/
+.subtitulo {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Krona One", sans-serif;
+    background-image: linear-gradient(to bottom, #ffffff, #515151); /* Degradê do branco para preto */
+    -webkit-background-clip: text; /* Clipagem de fundo para aplicar o gradiente no texto */
+    -webkit-text-fill-color: transparent; /* Define a cor do texto como transparente para mostrar o gradiente */
+}
+
+/* Configuração do subtítulo 2*/
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Kotta One", serif;
+}
+
+.botao {
+    padding: 4px 30px;
+    position: absolute; /* Define o posicionamento absoluto para o botão */
+    background-color: #004AAD; /*Está definindo a cor do fundo do botão*/
+    top: 45px; /* Define a distância do topo */
+    right: 90px; /* Define a distância da direita */
+    cursor: pointer;
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    transition: background-color 0.3s ease; /*Faz uma transição suave de cores*/
+}
+
+.botao:hover { /*Classe aplicada ao passar o mouse por cima do botão*/
+    background-color: #013d7e; /*Faz com que ao passar o mouse o botão mude de cor*/
+}
+
+.botao-texto-branco {
+    color: #ffffff; /* Mudança da cor do texto para preto */
+}
+
+.botao-menu {       
+    position: absolute;
+    top: 32px;
+    left: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #D9D9D9;
+    font-size: 40px;
+}
