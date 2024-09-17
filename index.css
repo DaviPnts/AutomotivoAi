@@ -1,0 +1,71 @@
+body {
+    background-color: #1E1E1E;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.linha {
+    width: 100%;
+    height: 3px;
+    background-color: #615A5A;
+}
+
+#logo {
+    max-width: 150px;
+    max-height: 130px;
+}
+
+.subtitulo {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Krona One", sans-serif;
+    background-image: linear-gradient(to bottom, #ffffff, #515151);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Kotta One", serif;
+}
+
+.botao:hover {
+    background-color: #013d7e;
+}
+
+.botao {
+    background-color: #004AAD;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-texto-branco {
+    color: #ffffff;
+}
+
+.botao-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #D9D9D9;
+    font-size: 40px;
+}
